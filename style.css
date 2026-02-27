@@ -1,0 +1,124 @@
+:root {
+  --White: #ffffff;
+  --Stone-100: #f3e6d8;
+  --Stone-150: #e4ded8;
+  --Stone-600: #5f574e;
+  --Stone-900: #302d2c;
+  --Brown-800: #854632;
+  --Rose-800: #7b284f;
+  --Rose-50: #fff5fa;
+}
+@font-face {
+  font-family: "YoungSerif";
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf) format(truetype);
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf)
+    format(sans-Serif);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--Stone-100);
+  font-family: "youngSerif";
+  font-weight: 400;
+}
+main {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.container {
+  background: #ffff;
+  padding: 1.5rem;
+  width: 41.66%;
+  border-radius: 0.9rem;
+}
+.container figure {
+  width: 100%;
+  padding: 0.3rem;
+}
+.container figure img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.container h1 {
+  color: var(--Stone-900);
+  margin: 0.2rem;
+  padding: 0.3rem;
+}
+.container p {
+  color: var(--Stone-600);
+  margin: 0.2rem;
+  font-size: 0.8rem;
+}
+.time {
+  margin: 1.4rem 0 0 0;
+  background-color: var(--Rose-50);
+  padding: 1rem 1rem 1rem 2rem;
+  border-radius: 0.5rem;
+}
+h3 {
+  color: var(--Rose-800);
+}
+span {
+  color: var(--Stone-900);
+}
+li {
+  color: var(--Stone-600);
+  line-height: 2rem;
+}
+h2 {
+  color: var(--Brown-800);
+  margin: 0.5rem 0rem 0rem -1.5rem;
+  padding: 0.6rem;
+}
+.Contents {
+  padding: 0.8rem;
+  line-height: 2rem;
+}
+hr {
+  border: none;
+  border-top: 0.05rem solid #808080;
+}
+.Instuctions {
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+.Nutrition {
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+.container div p {
+  margin-left: -1rem;
+}
+table {
+  border-collapse: collapse;
+
+  width: 100%;
+}
+.box1 {
+  color: var(--Stone-600);
+}
+
+.box2 {
+  padding-left: 15rem;
+  color: var(--Brown-800);
+}
+tr {
+  border-bottom: 1px solid #808080;
+  width: 100%;
+  line-height: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .col-xs-12 {
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+}
