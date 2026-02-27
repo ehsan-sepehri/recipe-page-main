@@ -1,6 +1,6 @@
 # blog-preview-card
 
-This project is taken from the site(https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) and is purely for practice and education purposes.
+This project is taken from the site( https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm ) and is purely for practice and education purposes.
 Only with HTML / CSS without using javascript.
 
 -----------------------------------------
